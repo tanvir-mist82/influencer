@@ -102,23 +102,58 @@
         }
 
         .item-father {
+
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
+            margin-top: 50px;
         }
 
         .items-container {
-            width: 550px;
+
             display: grid;
 
             grid-template-columns: repeat(3, 1fr);
+            grid-row-gap: 20px;
+            grid-column-gap: 15px;
+
+        }
+
+        .single-container {
+
+
+
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 5px 5px 2px 1px rgb(237, 235, 235);
+
+
         }
 
 
 
         .single-container img {
-            width: 180px;
+            width: 160px;
+            border-radius: 5px;
+        }
+
+        .fa-star {
+            font-size: 10px;
+        }
+
+        .fa-star.filled {
+            color: #FFC014;
+        }
+
+        .fa-star.empty {
+            color: #AEAEAE;
+        }
+
+        .rating {
+            padding-left: 10px;
+            font-size: 11px;
+            color: #525050;
         }
     </style>
 </head>
@@ -189,47 +224,101 @@
                     <div class="single-container">
                         <img src="images/action.png" alt="">
                         <h4>Action Camera</h4>
-                        <p></p>
+                        <p>$100.00</p>
+                        <i class="fa-solid fa-star filled"></i>
+                        <i class="fa-solid fa-star filled"></i>
+                        <i class="fa-solid fa-star filled"></i>
+                        <i class="fa-solid fa-star filled"></i>
+                        <i class="fa-solid fa-star empty"></i>
+                        <span class="rating">4.99</span>
                     </div>
                     <div class="single-container">
                         <img src="images/airpod.png" alt="">
                         <h4>Airpods</h4>
-                        <p></p>
+                        <p>$100</p>
+                        <i class="fa-solid fa-star filled"></i>
+                        <i class="fa-solid fa-star filled"></i>
+                        <i class="fa-solid fa-star filled"></i>
+                        <i class="fa-solid fa-star empty"></i>
+                        <i class="fa-solid fa-star empty"></i>
+                        <span class="rating">3.00</span>
                     </div>
                     <div class="single-container">
                         <img src="images/camera.png" alt="">
                         <h4>Vlogging Camera</h4>
-                        <p></p>
+                        <p>$1800</p>
+                        <i class="fa-solid fa-star filled"></i>
+                        <i class="fa-solid fa-star filled"></i>
+                        <i class="fa-solid fa-star filled"></i>
+                        <i class="fa-solid fa-star filled"></i>
+                        <i class="fa-solid fa-star filled"></i>
+                        <span class="rating">5.00</span>
                     </div>
                     <div class="single-container">
                         <img src="images/drone.png" alt="">
                         <h4>Drone</h4>
-                        <p></p>
+                        <p>$980.25</p>
+                        <i class="fa-solid fa-star filled"></i>
+                        <i class="fa-solid fa-star filled"></i>
+                        <i class="fa-solid fa-star filled"></i>
+                        <i class="fa-solid fa-star filled"></i>
+                        <i class="fa-solid fa-star empty"></i>
+                        <span class="rating">4.50</span>
                     </div>
                     <div class="single-container">
                         <img src="images/setup.png" alt="">
                         <h4>Photoshoot Set</h4>
-                        <p></p>
+                        <p>$820.40</p>
+                        <i class="fa-solid fa-star filled"></i>
+                        <i class="fa-solid fa-star filled"></i>
+                        <i class="fa-solid fa-star filled"></i>
+                        <i class="fa-solid fa-star filled"></i>
+                        <i class="fa-solid fa-star empty"></i>
+                        <span class="rating">4.00</span>
                     </div>
                     <div class="single-container">
                         <img src="images/lights.png" alt="">
                         <h4>Light Set</h4>
-                        <p></p>
+                        <p>$1200.00</p>
+                        <i class="fa-solid fa-star filled"></i>
+                        <i class="fa-solid fa-star filled"></i>
+                        <i class="fa-solid fa-star empty"></i>
+                        <i class="fa-solid fa-star empty"></i>
+                        <i class="fa-solid fa-star empty"></i>
+                        <span class="rating">2.50</span>
                     </div>
                     <div class="single-container">
                         <img src="images/mic.png" alt="">
                         <h4>Microphone</h4>
-                        <p></p>
+                        <p>$120.25</p>
+                        <i class="fa-solid fa-star filled"></i>
+                        <i class="fa-solid fa-star filled"></i>
+                        <i class="fa-solid fa-star filled"></i>
+                        <i class="fa-solid fa-star filled"></i>
+                        <i class="fa-solid fa-star empty"></i>
+                        <span class="rating">4.99</span>
                     </div>
                     <div class="single-container">
                         <img src="images/single-light.png" alt="">
                         <h4>Green Screen</h4>
-                        <p></p>
+                        <p>$25.48</p>
+                        <i class="fa-solid fa-star filled"></i>
+                        <i class="fa-solid fa-star filled"></i>
+                        <i class="fa-solid fa-star filled"></i>
+                        <i class="fa-solid fa-star filled"></i>
+                        <i class="fa-solid fa-star empty"></i>
+                        <span class="rating">4.99</span>
                     </div>
                     <div class="single-container">
                         <img src="images/tripod.png" alt="">
                         <h4>Tripod</h4>
-                        <p></p>
+                        <p>$50.48</p>
+                        <i class="fa-solid fa-star filled"></i>
+                        <i class="fa-solid fa-star filled"></i>
+                        <i class="fa-solid fa-star filled"></i>
+                        <i class="fa-solid fa-star empty"></i>
+                        <i class="fa-solid fa-star empty"></i>
+                        <span class="rating">3.50</span>
                     </div>
 
                 </div>
